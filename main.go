@@ -11,7 +11,6 @@ import (
 )
 
 func generateOTP(length int) (string, error) {
-
 	// Generate 32 random bytes for key and message
 	key := make([]byte, 32)
 	message := make([]byte, 32)
